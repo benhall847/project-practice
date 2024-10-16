@@ -1,0 +1,18 @@
+# Similar to .gitignore, .dockerignore allows you to list files and/or directories which are to be ignored while building the image
+# This would reduce the size of the image and help speed up the docker build process.
+
+# Below are just examples
+node_modules/
+.git/
+coverage/
+
+.dockerignore
+Dockerfile
+
+.gitignore
+.env
+.eslintrc
+.editorconfig
+.gitlab-ci.yml
+
+.cache
